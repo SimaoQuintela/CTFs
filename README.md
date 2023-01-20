@@ -1,5 +1,5 @@
 # CTFs
-A repository where I push my solutions for solving CTF problems 
+A repository where I push my solutions for CTF problems 
 
 #### This is my first approach to this kind of problems and I'm using the following fonts to practice
 * **PicoCTF** - https://play.picoctf.org/practice
