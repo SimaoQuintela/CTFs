@@ -28,7 +28,7 @@ pprint(char_freq)
 suspect_cases = 'defglmnoprstz'
 suspect_letter = 'w'
 
-def caesar_cypher(encrypted_flag, suspect_cases, suspect_letter):
+def caesar_cipher(encrypted_flag, suspect_cases, suspect_letter):
     results = []
     suspect_letter_nr = ord(suspect_letter) -97
 
@@ -46,8 +46,8 @@ def caesar_cypher(encrypted_flag, suspect_cases, suspect_letter):
         results.append((guess, shift, res))
     return results
 
-decryphered_results = caesar_cypher(encrypted_flag, suspect_cases, suspect_letter)
-pprint(decryphered_results)
+decrypted_results = caesar_cipher(encrypted_flag, suspect_cases, suspect_letter)
+pprint(decrypted_results)
 
 # flag -> # picoCTF{crossingtherubicondjneoach} 
 # the flag was encrypted with a shift 22 technique
